@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine Corner - Metode Pembayaran</title>
+    <link rel="stylesheet" href="css/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fit+Nexus:wght@400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="font-family: 'Fit Nexus', sans-serif;
+font-size: 35px;
+font-weight: 900;
+line-height: 26.4px;
+text-align: left;
+width: 124px;
+height: 32px;">Caffeine </h1>
+            <h1 style="position: relative; left: -35px; font-family: 'Fit Nexus', sans-serif;
+font-size: 35px;
+font-weight: 900;
+line-height: 26.4px;
+text-align: left;
+width: 124px;
+height: 32px;"> Corner.</h1>
+          <div class="logo">
+            <img style="position: relative; width: 36px;
+            height: 50px;
+            top: 23px;
+            left: 111px;
+            opacity: 0px;
+            rotate: 120.64 deg;
+            width: 45px;
+            " src="img/image.png" alt="">
+                       <img style="position: relative; width: 36px;
+                       height: 51px;
+                       top: 18px;
+                       left: 70px;
+                       opacity: 0px;
+                       rotate: 120.64 deg;
+                       width: 46px;
+                       " src="img/s.png" alt="">
+          </div>
+        </div>
+   
+         
+            <div class="detail-pesanan">
+                <h2>Detail Pesanan</h2>
+                <p><strong>Nama Lengkap</strong>: Anisa Gloria</p>
+                <p><strong>Nomor Telepon</strong>: 0123-4567-8910</p>
+                <p><strong>Pesanan</strong>:<br>Espresso<br>Americano<br>Latte<br>Cappuccino</p>
+            </div>
+            <div class="metode-pembayaran">
+                <h2>Metode Pembayaran</h2>
+                <p style="font-family: DM Sans; font-size: 20px; font-weight: 500; line-height: 26.04px; text-align: left;">Virtual Account / Bank / ATM</p>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="BCA"> 
+                    <span class="checkmark"></span>
+                    BCA
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="BRI"> 
+                    <span class="checkmark"></span>
+                    BRI
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="BNI"> 
+                    <span class="checkmark"></span>
+                    BNI
+                </label>
+                <p style="font-family: DM Sans; font-size: 20px; font-weight: 500; line-height: 26.04px; text-align: left;">E-Wallet</p>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="Gopay"> 
+                    <span class="checkmark"></span>
+                    Gopay
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="DANA"> 
+                    <span class="checkmark"></span>
+                    DANA
+                </label>
+                <label class="payment-option">
+                    <input type="radio" name="payment" value="OVO"> 
+                    <span class="checkmark"></span>
+                    OVO
+                </label>
+            </div>
+            <div class="konfirmasi">
+                <input type="checkbox" id="konfirmasi">
+                <label for="konfirmasi">Konfirmasi Metode Pembayaran</label>
+            </div>
+            <button class="next-btn">Selanjutnya</button>
+        </div>
+        <script src="js/payment2.js"></script>
+</body>
+</html>

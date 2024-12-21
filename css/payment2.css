@@ -1,0 +1,245 @@
+body {
+    
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.receipt {
+    background: #e4e0e4e6;
+    margin-top: -150px;
+    width: 300px;
+    height: 470px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Fit Nexus', sans-serif;
+}
+
+.logo {
+    width: 0px;
+            margin-right: 10px;
+            position: relative;
+            top: 14px;
+            width: 45px;
+            height: 60px;
+            font-family: 'Fit Nexus', sans-serif;
+}
+
+.details, .order, .total, .payment {
+    margin-bottom: 20px;
+    font-family: DM Sans;
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+}
+
+.order p, .total p {
+    display: flex;
+    justify-content: space-between;
+    font-family: DM Sans;
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+}
+
+.total span{
+    color: red;
+    font-weight: bold;
+}
+
+.payment p {
+    font-size: 14px;
+    text-align: center;
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.83px;
+text-align: left;
+position: relative;
+left: 140px;
+    font-family: DM Sans;
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+}
+
+.logo h1{
+   font-family: DM Sans;
+    width: 50px;
+    height: 50px;
+  
+font-size: 24px;
+font-weight: 900;
+line-height: 28.8px;
+
+
+}
+.payment span {
+    font-weight: bold;
+    font-family: DM Sans;
+    position: relative;
+    width: 221px;
+height: 23px;
+top: -18px;
+left: -12px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26.04px;
+text-align: left;
+
+}
+.payment{
+    background: #e4e0e4e6;
+    font-family: DM Sans;
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+    width: 350px;
+height: 110px;
+position: relative;
+right: 25px;
+border-radius: 10px;
+opacity: 0px;
+margin-top: 40px
+}
+@import url("https://fonts.googleapis.com/css2?family=Fit+Nexus:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+p{
+    font-family: DM Sans;
+}
+.payment p strong{
+    position: relative;
+top: 8px;
+right: 130px;
+gap: 0px;
+opacity: 0px;
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26.04px;
+text-align: left;
+
+}
+.logo h1{
+    font-family: 'Fit Nexus', sans-serif;
+font-size: 35px;
+font-weight: 900;
+line-height: 26.4px;
+text-align: left;
+width: 124px;
+height: 32px;
+position: relative;
+bottom: 35px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+margin-top: -25px;
+
+}
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: -100px; /* Start above the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+  background-color: white;
+    
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+     /* Make it circular */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    /* Center the text vertically */
+    opacity: 0; /* Initially transparent */
+    transition: top 0.5s ease, opacity 0.5s ease; /* Smooth transition */
+    width: 392px;
+height: 454px;
+
+
+}
+.next-btn {
+    width: -10px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.next-btn:hover {
+    background-color: #e68a00;
+}
+
+.popup.show {
+    display: block;
+    top: 100px; /* Final position where it stops */
+    opacity: 1; /* Fully visible */
+}
+.popup {
+    display: none;
+    /* Other styles for popup */
+}
+.popup.show {
+    display: block;
+    /* Other styles for visible popup */
+}
+.total span.lunas {
+    color: #000000; /* White color for "Lunas" */
+}
+.total span.expired {
+    display: none; /* Hide "Expired" text */
+}
+.barcode img {
+    width: 200px;
+height: 202px;
+position: relative;
+top: 15px;
+left: 60px;
+gap: 0px;
+opacity: 0px;
+
+}
+.barcode p{
+    width: 287px;
+height: 23px;
+color: #3F3F3F;
+position: relative;
+top: 0px;
+left: 15px;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.44px;
+text-align: center;
+
+
+}
+.next-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.next-btn:hover {
+    background-color: #e68a00;
+}
+.popup {
+    background: #EEEDEE;
+    
+    
+}

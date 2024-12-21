@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <link rel="stylesheet" href="css/payment2.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fit+Nexus&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="receipt">
+        <div class="header">
+             <img style="position: relative; width: 36px;
+            height: 60px;
+            top: 18px;
+            left: 38px;
+            opacity: 0px;
+            rotate: 120.64 deg;
+            width: 45px;
+            " src="img/image.png" alt="">
+                       <img src="img/s.png" class="logo">
+         <div class="logo">
+            <h1>CAFFEINE </h1>
+            <h1>CORNER.</h1>
+         </div>
+        </div>
+        <div class="details">
+            <p><strong>Nama Lengkap:</strong> Anisa Gloria</p>
+            <p><strong>Nomor Meja:</strong> 12</p>
+        </div>
+        
+        <div class="order">
+            <p><strong>Pesanan</strong></p>
+            <p>Espresso x1 <span>Rp. 20.000,00</span></p>
+            <p>Americano x1 <span>Rp. 20.000,00</span></p>
+            <p>Latte x1 <span>Rp. 20.000,00</span></p>
+            <p>Cappuccino x1 <span>Rp. 25.000,00</span></p>
+        </div>
+        <div class="total">
+            <p><strong>Total Pesanan:</strong> <span style="color: black;">Rp. 85.000,00</span></p>
+            <p><strong>Status Pembayaran:</strong> <span id="paymentStatus">Belum Lunas</span></p>
+            <p><strong>Waktu pembayaran:</strong> <span id="timer1">00:15</span></p>
+        </div>
+     <div class="barcode">
+        <p>
+            Scan Untuk Melakukan Pembayaran
+        </p>
+        <img src="img/download.png" alt="">
+     </div>
+    <div id="popup" class="popup">
+        <img style="width: 137px;
+height: 141px;
+top: 428px;
+left: 2342px;
+gap: 0px;
+opacity: 0px;
+" src="img/check.png" alt="">
+        <p>Pembayaran Berhasil ! </p>
+        <p>Espresso x1 <span>Rp. 20.000,00</span></p>
+        <p>Americano x1 <span>Rp. 20.000,00</span></p>
+        <p>Latte x1 <span>Rp. 20.000,00</span></p>
+        <p>Cappuccino x1 <span>Rp. 25.000,00</span></p>
+        <p>Pesanan sedang di proses, Kopi favorit Anda segera siap untuk dinikmati!</p>
+        <p><strong>Pesanan</strong></p>
+   
+    <a href="main.html">
+        <button style="width: 200px;" class="next-btn">Kembali</button>
+    </a>
+    </div>
+    <script src="js/payment.js"></script>
+    <script src="js/pop out.js"></script>
+    <script src="js/pop out2.js"></script>
+</body>
+</html>
